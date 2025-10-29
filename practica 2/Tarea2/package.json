@@ -1,0 +1,24 @@
+{
+  "name": "modulo-reportes-infraestructura",
+  "version": "1.0.0",
+  "description": "Sistema de reportes de infraestructura con arquitectura en capas y paradigmas asíncronos",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "start": "node dist/main.js",
+    "test": "ts-node src/main.ts"
+  },
+  "keywords": ["typescript", "architecture", "async", "crud", "reports"],
+  "author": "Cinthia Zambrano",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
